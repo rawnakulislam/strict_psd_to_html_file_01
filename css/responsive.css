@@ -1,0 +1,233 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bottomarrow {
+        display: none;
+    }
+
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bottomarrow {
+        font-size: 0;
+    }
+
+    .pb-xl-5 {
+        font-size: 17px;
+    }
+
+    .pt-xl-4.pb-xl-3 {
+        font-size: 37px;
+        padding-top: 30px;
+    }
+
+    .text-center.pt-xl-4.pb-xl-5 {
+        color: #999999;
+        font-size: 16px;
+    }
+
+    .pb-3 {
+        font-size: 17px !important;
+        font-weight: 600;
+    }
+
+    .pb-xl-5 {
+        font-size: 15px;
+    }
+
+    .pt-xl-4 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    #icon4 {
+        left: 56%;
+    }
+
+    #icon3 {
+        left: 44%;
+    }
+
+    .foot a {
+        padding: 5px 11px;
+        font-size: 17px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .bannercontent1 h1 {
+        font-size: 70px;
+        padding-right: 70px;
+    }
+
+    .bannercontent1 h1::before {
+        width: 425px;
+        left: 8%;
+    }
+
+    .bannercontent p {
+        font-size: 16px;
+    }
+
+    .bottomarrow {
+        font-size: 0;
+    }
+
+    .pb-xl-5 {
+        font-size: 17px;
+    }
+
+    .pt-xl-4.pb-xl-3 {
+        font-size: 37px;
+        padding-top: 30px;
+    }
+
+    .text-center.pt-xl-4.pb-xl-5 {
+        color: #999999;
+        font-size: 16px;
+    }
+
+    .pb-3 {
+        font-size: 17px !important;
+        font-weight: 600;
+    }
+
+    .pb-xl-5 {
+        font-size: 15px;
+    }
+
+    .pt-xl-4 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    #icon4 {
+        left: 56%;
+    }
+
+    #icon3 {
+        left: 44%;
+    }
+
+    .foot a {
+        padding: 5px 11px;
+        font-size: 17px;
+    }
+
+    .card.h-100 img {
+        padding: 20px;
+    }
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .bannercontent1 h1 {
+        font-size: 50px;
+        padding-right: 270px;
+    }
+
+    .bannercontent1 h1::before {
+        width: 290px;
+        left: 4%;
+    }
+
+    .bannercontent p {
+        font-size: 16px;
+    }
+
+    .box a {
+        font-size: 14px;
+        padding: 11px 22px;
+
+    }
+
+    .row.f1 i {
+        padding-right: 110px;
+    }
+
+    .bottomarrow {
+        font-size: 0;
+    }
+
+    .pt-xl-5 {
+        font-size: 17px;
+        padding-top: 30px;
+        padding-right: 57px;
+    }
+
+    .pb-xl-5 {
+        font-size: 15px;
+        
+    }
+
+    .pt-xl-4.pb-xl-3 {
+        font-size: 37px;
+        padding-top: 30px;
+    }
+
+    .text-center.pt-xl-4.pb-xl-5 {
+        display: none;
+    }
+
+    body {
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+
+    .pb-3 {
+        font-size: 17px !important;
+        font-weight: 600;
+    }
+
+    .pb-xl-5 {
+        font-size: 15px;
+    }
+
+    .pt-xl-4 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    #icon4 {
+        left: 56%;
+    }
+
+    #icon3 {
+        left: 44%;
+    }
+
+    .foot a {
+        padding: 5px 11px;
+        font-size: 17px;
+    }
+
+    .form-control {
+        width: 300px;
+        text-align: center;
+    }
+
+    input {
+        margin-left: 20px;
+    }
+
+    #exampleFormControlTextarea1 {
+        margin-left: 20px;
+    }
+
+    .col-lg-9.col-md-9.col-sm-8.col-xs-6.text-left.pt-3 p {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .foot {
+        display: none;
+    }
+}
